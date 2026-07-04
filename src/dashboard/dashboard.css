@@ -1,0 +1,68 @@
+.new {
+    /* position: absolute; */
+    right: 23px;
+    bottom: 10px;
+    font-size: 12px;
+    background-color: #ffffff7d;
+    padding: 5px 10px;
+    border-radius: 21px;
+    color: #000000;
+    font-weight: 900;
+    border: 1px solid #000000;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+.responsive-auto {
+    max-height: 300px !important;
+    overflow: auto !important;
+    min-height: 200px;
+}
+
+@media (max-width: 768px) {
+    .col-md-2.animate-fadeIn {
+        width: 50%;
+        float: left;
+    }
+
+    .stat-card .card-title {
+        font-size: 14px;
+    }
+
+    span.new {
+        display: none;
+    }
+
+    .stat-card .card-icon {
+        position: absolute;
+        right: 20px;
+        top: 45px;
+        font-size: 25px;
+        opacity: 0.2;
+    }
+
+    .data-card .card-title {
+        font-size: 14px;
+        padding: 5px 0px;
+        font-weight: 600;
+    }
+
+    .search-box {
+        max-width: 150px;
+        display: none;
+    }
+
+    
+    .dash_dtl .g-4, .gy-4 {
+        --bs-gutter-y: 20px;
+    }
+    .dash_dtl .g-4, .gx-4 {
+        --bs-gutter-x: 10px;
+    }
+    .stat-card .card-title {
+        font-size: 12px;
+    }
+    .row.g-4.mb-4.mt-2 {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.copyRight {
+    float: left;
+    display: none;
+    padding: 15px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: #161616;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+}
+.copyRight p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #ffffff;
+}

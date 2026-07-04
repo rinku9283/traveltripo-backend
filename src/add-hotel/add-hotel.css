@@ -1,0 +1,87 @@
+hr {
+    border-top: 1px solid #e5e5e5 !important;
+    opacity: 1;
+}
+b{
+    font-weight: 400;
+}
+label.btn.btn-outline-primary {
+    padding: 14px 31px !important;
+    border: 1px solid #dee2e6 !important;
+    color: #434343;
+}
+.btn-check:checked+.btn{
+    background-color: #2f2f2f;
+}
+.height-150.height-150{
+    height: 150px !important;
+}
+.btn-outline-primary {
+    border-radius: 100px;
+    padding: 1px 5px;
+    margin-right: 5px;
+}
+.textPosition{
+   display: inline-block;
+}
+
+/* Button Text and Loader */
+.loaderIcon{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    padding: 0;
+}
+.hideBtnText{
+    display: none;
+}
+.showBtnText{
+    display: block;
+}
+.iconHide{
+    display: none !important;
+}
+.iconShow{
+    display: block !important;
+}
+.textHide{
+    display: none !important;
+}
+.skeleton {
+    height: 15px;
+    width: 100%;
+    border-radius: 4px;
+    background: linear-gradient(
+      90deg,
+      #eee 25%,
+      #ddd 37%,
+      #eee 63%
+    );
+    background-size: 400% 100%;
+    animation: shimmer 1.4s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
+  
+  .skeleton-row td {
+    padding: 10px;
+  }
+
+
+  
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        width: 500px !important;
+        max-width: 500px !important; 
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

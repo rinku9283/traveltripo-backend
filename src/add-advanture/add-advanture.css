@@ -1,0 +1,73 @@
+
+.action-width{
+    width: 250px;
+}
+.showModel{
+    display: block !important;
+}
+.hideModel{
+    display: none !important;
+}
+.modal-backdrop {
+    display: none;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+.popup-overlay{
+    position: absolute;
+    background-color: #00000094;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* Button Text and Loader */
+.loaderIcon{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    padding: 0;
+}
+.hideBtnText{
+    display: none;
+}
+.showBtnText{
+    display: block;
+}
+.iconHide{
+    display: none !important;
+}
+.iconShow{
+    display: block !important;
+}
+.textHide{
+    display: none !important;
+}
+.skeleton {
+    height: 15px;
+    width: 100%;
+    border-radius: 4px;
+    background: linear-gradient(
+      90deg,
+      #eee 25%,
+      #ddd 37%,
+      #eee 63%
+    );
+    background-size: 400% 100%;
+    animation: shimmer 1.4s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
+  
+  .skeleton-row td {
+    padding: 10px;
+  }

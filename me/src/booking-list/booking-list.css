@@ -1,0 +1,24 @@
+
+.action-width{
+    width: 250px;
+}
+.showModel{
+    display: block !important;
+}
+.hideModel{
+    display: none !important;
+}
+.modal-backdrop {
+    display: none;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+.popup-overlay{
+    position: absolute;
+    background-color: #00000094;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

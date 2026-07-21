@@ -1,0 +1,112 @@
+a.nav-link.dropdown-toggle.d-flex.align-items-center {
+    padding: 0;
+    /* border: 1px solid #3e3e3e; */
+    padding: 4px 5px;
+    border-radius: 100px;
+    font-size: 16px;
+    padding-right: 20px;
+    background-color: #dc354500;
+    color: #3e3e3e;
+}
+
+.navbar .dropdown-item {
+    padding: 12px 10px;
+}
+
+.navbar .navbar-expand-lg .navbar-nav .dropdown-menu {
+    padding: 0;
+}
+
+.navbar .dropdown-divider {
+    margin: 0;
+}
+
+.navbar .dropdown-item:focus,
+.dropdown-item:hover {
+    border-radius: 8px;
+}
+.userImg{
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.user-profile{
+    max-width: 190px;
+    position: relative;
+}
+.user-profile .userImg img {
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+}
+
+.profile-list {
+    padding-left: 0;
+    float: left;
+    list-style: none;
+    background-color: #ffffff;
+    position: absolute;
+    min-width: 170px;
+    right: -3px;
+    top: 45px;
+}
+
+.profile-list li {
+    float: left;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 15px;
+    border-top: 1px solid #d7d7d7;
+}
+
+.profile-list li a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+.profile-list li a svg{
+    margin-right: 10px;
+}
+.profileHide{
+    display: none;
+}
+.profileShow{
+    display: block;
+}
+@media (max-width: 768px) {
+    .navbar-toggler {
+        border: none !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .activeHide {
+        display: none !important;
+    }
+
+    .activeShow {
+        transform: translateX(-0%) !important;
+        display: block !important;
+    }
+    .profile-list {
+        padding-left: 0;
+        float: left;
+        list-style: none;
+        background-color: #ededed;
+        position: absolute;
+        min-width: 100%;
+        right: -8px;
+        top: 50px;
+        left: 0;
+        max-width: 200px;
+    }
+    .userImg{
+        font-size: 14px;
+    }
+    .profile-list li a {
+        font-size: 14px;
+    }
+}

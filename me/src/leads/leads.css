@@ -1,0 +1,13 @@
+.add-more-leads{
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    font-size: 26px;
+    box-shadow: 0px -1px 12px 3px #80808078;
+    padding-right: 13px;
+    padding-left: 19px;
+    cursor: pointer !important;
+}
